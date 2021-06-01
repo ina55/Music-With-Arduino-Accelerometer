@@ -23,7 +23,6 @@ In src/ directory there are 2 files:
 
 ### Code and Implementation
 	.ino file:
-
 	/ Musical keynotes & scales /
 	Firstly, I have defined keynotes and scales. 
 	In "melodies" vector we have 6 scales of keys, coresponding to
@@ -39,7 +38,7 @@ In src/ directory there are 2 files:
 	In loop() function:
 	I request from the MPU address, and begin the transmission.
 	As we want to have a masurement for acceleration, rotation and time,
-	we will need a total amount of 14 registers (one for time measurement,
+	we will need a total amount of 14 registers (two for time measurement,
 	two for an axis measurement - and we have 3 axis for acceleration and
 	3 axis for rotation). 
 
